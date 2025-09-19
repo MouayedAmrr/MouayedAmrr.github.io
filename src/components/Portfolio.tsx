@@ -36,14 +36,6 @@ export const Portfolio = () => {
       apkUrl: "https://github.com/ahmedragaae0120/PluseFit/releases/download/v1.0.0/PulseFitApp-v1.apk",
       technologies: ["Flutter", "hive", "Gemini", "Firebase","REST API","MVI","Widget Testing","Clean architecture","Localization"]
     },
-    {
-      title: "ProScore",
-      description: "ProScore is a dynamic football live scores and news app designed for sports enthusiasts who want to stay updated in real-time. The app offers live match results, detailed statistics, league standings, and breaking football news from around the world. Users can explore articles, follow their favorite teams, and view in-depth match analysis — all through a sleek and modern interface.",
-      image: "/ProScoreApp.png",
-      github: "https://github.com/ahmedragaae0120/football_app",
-      apkUrl: "https://github.com/ahmedragaae0120/football_app/releases/download/v1.0.0/FootballApp-v1.apk",
-      technologies: ["Flutter","Firebase","REST API","MVVM","Clean architecture"]
-    }
 
   ];
 
