@@ -22,15 +22,15 @@ export const Hero = () => {
           <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 p-1">
             <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center">
               <img 
-                src="/my_avatar.jpg"
-                alt="Ahmed M.Ragaa - Flutter Developer" 
+                src="/mouayed_avatar.jpg"
+                alt="Mouayed Amr - Flutter Developer" 
                 className="w-28 h-28 rounded-full object-cover"
               />
             </div>
           </div>
           
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white">
-            Hi, I'm <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Ahmed M.Ragaa</span>
+            Hi, I'm <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Mouayed Amr</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-4">

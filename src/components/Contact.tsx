@@ -31,12 +31,12 @@ export const Contact = () => {
                 <div className="flex-1">
                   <p className="font-medium text-white text-lg">Email</p>
                   <a 
-                    href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNxNXXvnLrdmbPgBdrhWVkBZGPTTjbKSBRMpjnntBWfFcFMXGdwNmbPghjhMnhxnxCxFlq"
+                    href="mailto:mouayed.amr@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-400 hover:text-blue-300 transition-colors text-lg"
                   >
-                    ahmedbasha01208@gmail.com
+                    mouayed.amr@gmail.com
                   </a>
                 </div>
               </div>
@@ -48,12 +48,12 @@ export const Contact = () => {
                 <div className="flex-1">
                   <p className="font-medium text-white text-lg">LinkedIn</p>
                   <a 
-                    href="https://www.linkedin.com/in/ahmed-m-ragaa-2b9a41244/"
+                    href="https://linkedin.com/in/mouayedamr/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-400 hover:text-blue-300 transition-colors text-lg"
                   >
-                    Ahmed M. Ragaa
+                    Mouayed Amr
                   </a>
                 </div>
               </div>
@@ -65,12 +65,12 @@ export const Contact = () => {
                 <div className="flex-1">
                   <p className="font-medium text-white text-lg">GitHub</p>
                   <a 
-                    href="https://github.com/ahmedragaae0120"
+                    href="https://github.com/MouayedAmrr"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-400 hover:text-blue-300 transition-colors text-lg"
                   >
-                    ahmedragaae0120
+                    MouayedAmrr
                   </a>
                 </div>
               </div>
