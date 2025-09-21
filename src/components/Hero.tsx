@@ -9,7 +9,7 @@ export const Hero = () => {
   };
 
   const downloadCV = () => {
-    window.open('https://drive.google.com/file/d/1kkodVkcWR4WSBzElZXv6qcusKQ_qwaAm/view?usp=drive_link', '_blank');
+    window.open('https://drive.google.com/file/d/1R_URk3x-uZC46Tx6iAqZzk9fWACHUT1Z/view?usp=drivesdk', '_blank');
   };
 
   return (
