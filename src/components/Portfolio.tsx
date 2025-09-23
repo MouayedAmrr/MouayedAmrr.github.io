@@ -24,7 +24,7 @@ export const Portfolio = () => {
       title: "Tracking App",
       description: "Stay updated every step of the way with Flora Mart is real-time order tracking. Know exactly when your flowers and chocolates will arrive with live location, delivery updates, and estimated arrival time — all in one place.",
       image: "/tracking_preview.png",
-      github: "https://github.com/ahmedragaae0120/Tracking-App",
+      github: "https://github.com/moyasser20/tarcking_app",
       apkUrl: "https://github.com/ahmedragaae0120/Tracking-App/releases/download/v1.0.0/TrackingApp-v1.apk",
       technologies: ["Flutter", "MVI","Firabase","Clean architecture", "REST API","Google Maps","Localization"]
     },
