@@ -38,8 +38,8 @@ export const Hero = () => {
           </p>
           
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
-            I create beautiful, cross-platform mobile applications using Flutter and Dart. 
-            Passionate about clean code, great user experiences, and innovative solutions.
+            I develop high-quality, cross-platform mobile applications using Flutter and Dart. 
+            I am committed to writing clean, maintainable code and delivering seamless user experiences through innovative and scalable solutions.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
