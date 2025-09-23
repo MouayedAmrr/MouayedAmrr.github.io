@@ -8,7 +8,7 @@ export const Portfolio = () => {
       title: "Programing Quiz App",
       description: "A program that contains exams in subjects such as languages, mathematics, drawing, and programming like HTML and JavaScript, with a cache for the results.",
       image: "/exam_preview.png",
-      github: "https://github.com/ahmedragaae0120/online_exam_app/tree/main",
+      github: "https://github.com/moyasser20/online_exam_app_elevate",
       apkUrl: "https://github.com/ahmedragaae0120/online_exam_app/releases/download/v1.0.0/OnlineExamApp-v1.apk",
       technologies: ["Flutter", "Sqlite", "Clean architecture", "REST API", "MVVM","Localization"]
     },
@@ -16,7 +16,7 @@ export const Portfolio = () => {
       title: "Flora Mart",
       description: "Application for selling flowers and various types of chocolates,Features include payment integration, order tracking, and full API integration.",
       image: "/flora_preview.png",
-      github: "https://github.com/ahmedragaae0120/flora_mart",
+      github: "https://github.com/AhmedNasser1999/flower_app",
       apkUrl: "https://github.com/ahmedragaae0120/flora_mart/releases/download/v1.0.0/FloraMartApp-v1.apk",
       technologies: ["Flutter", "MVI","Firabase","Clean architecture", "REST API","Google Maps","Localization","Push Notifications"]
     },
