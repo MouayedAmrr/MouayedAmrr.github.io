@@ -36,6 +36,14 @@ export const Portfolio = () => {
       apkUrl: "https://github.com/ahmedragaae0120/PluseFit/releases/download/v1.0.0/PulseFitApp-v1.apk",
       technologies: ["Flutter", "hive", "Gemini", "Firebase","REST API","MVI","Widget Testing","Clean architecture","Localization"]
     },
+    {
+      title: "Movies App",
+      description: "A comprehensive movie application that allows users to discover, browse, and explore a vast collection of movies. Features include detailed movie information, ratings, trailers, and personalized recommendations with a sleek and intuitive user interface.",
+      image: "/movies_preview.png",
+      github: "https://github.com/MouayedAmrr/MoviesApp_Route",
+      apkUrl: "#",
+      technologies: ["Flutter", "Clean architecture", "Localization", "MVVM", "REST API"]
+    },
 
   ];
 
@@ -54,10 +62,8 @@ export const Portfolio = () => {
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-    } else {
-      // If no APK URL is provided, show a message
-      alert('APK file is not available for download yet.');
     }
+    // Movies App download button has no functionality for now
   };
 
   return (
