@@ -39,7 +39,7 @@ export const Portfolio = () => {
     {
       title: "Movies App",
       description: "A comprehensive movie application that allows users to discover, browse, and explore a vast collection of movies. Features include detailed movie information, ratings, trailers, and personalized recommendations with a sleek and intuitive user interface.",
-      image: "/movies_preview_new.png",
+      image: "/movies_preview.png",
       github: "https://github.com/MouayedAmrr/MoviesApp_Route",
       apkUrl: "#",
       technologies: ["Flutter", "Clean architecture", "Localization", "MVVM", "REST API"]
