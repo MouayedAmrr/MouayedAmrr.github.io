@@ -44,6 +44,14 @@ export const Portfolio = () => {
       apkUrl: "#",
       technologies: ["Flutter", "Clean architecture", "Localization", "MVVM", "REST API"]
     },
+    {
+      title: "Clot E-Commerce App",
+      description: "A modern e-commerce application developed during my internship at Link Development. This full-featured shopping app provides a seamless online retail experience with secure authentication, real-time data synchronization, multi-language support, and customizable themes for enhanced user experience.",
+      image: "/clot_preview.png",
+      github: "#",
+      apkUrl: "#",
+      technologies: ["Flutter", "Firebase Auth", "Firestore", "Localization", "Theming", "Clean Architecture"]
+    },
 
   ];
 
