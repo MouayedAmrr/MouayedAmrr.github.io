@@ -10,6 +10,7 @@ export const Portfolio = () => {
       image: "/exam_preview.png",
       github: "https://github.com/moyasser20/online_exam_app_elevate",
       apkUrl: "https://github.com/ahmedragaae0120/online_exam_app/releases/download/v1.0.0/OnlineExamApp-v1.apk",
+      demoUrl: "https://streamable.com/zkhp02",
       technologies: ["Flutter", "Sqlite", "Clean architecture", "REST API", "MVVM","Localization"]
     },
     {
@@ -18,6 +19,7 @@ export const Portfolio = () => {
       image: "/flora_preview.png",
       github: "https://github.com/AhmedNasser1999/flower_app",
       apkUrl: "https://github.com/ahmedragaae0120/flora_mart/releases/download/v1.0.0/FloraMartApp-v1.apk",
+      demoUrl: "#",
       technologies: ["Flutter", "MVI","Firabase","Clean architecture", "REST API","Google Maps","Localization","Push Notifications"]
     },
     {
@@ -26,6 +28,7 @@ export const Portfolio = () => {
       image: "/tracking_preview.png",
       github: "https://github.com/moyasser20/tarcking_app",
       apkUrl: "https://github.com/ahmedragaae0120/Tracking-App/releases/download/v1.0.0/TrackingApp-v1.apk",
+      demoUrl: "#",
       technologies: ["Flutter", "MVI","Firabase","Clean architecture", "REST API","Google Maps","Localization"]
     },
     {
@@ -34,6 +37,7 @@ export const Portfolio = () => {
       image: "/pulse_fit.png",
       github: "https://github.com/ahmedragaae0120/PluseFit/tree/development",
       apkUrl: "https://github.com/ahmedragaae0120/PluseFit/releases/download/v1.0.0/PulseFitApp-v1.apk",
+      demoUrl: "#",
       technologies: ["Flutter", "hive", "Gemini", "Firebase","REST API","MVI","Widget Testing","Clean architecture","Localization"]
     },
     {
@@ -42,6 +46,7 @@ export const Portfolio = () => {
       image: "/movies_preview.png",
       github: "https://github.com/MouayedAmrr/MoviesApp_Route",
       apkUrl: "#",
+      demoUrl: "https://streamable.com/7fmto5",
       technologies: ["Flutter", "Clean architecture", "Localization", "MVVM", "REST API"]
     },
     {
@@ -50,6 +55,7 @@ export const Portfolio = () => {
       image: "/clot_preview.png",
       github: "https://github.com/YoussefGhonem1/ecommerce_linkdevelpment",
       apkUrl: "#",
+      demoUrl: "https://streamable.com/gpevbg",
       technologies: ["Flutter", "Firebase Auth", "Firestore", "Localization", "Theming", "Clean Architecture"]
     },
 
@@ -60,6 +66,13 @@ export const Portfolio = () => {
       window.open(githubUrl, '_blank');
     }
   };
+
+  const handleViewDemo = (demoUrl: string) => {
+    if (demoUrl !== "#") {
+      window.open(demoUrl, '_blank');
+    }
+  };
+
 
   const handleDownloadApk = (apkUrl: string, appName: string) => {
     if (apkUrl !== "#") {
@@ -121,6 +134,14 @@ export const Portfolio = () => {
                     onClick={() => handleViewCode(project.github)}
                   >
                     View Code
+                  </Button>
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="border-purple-500/50 text-purple-400 hover:bg-purple-600/20 hover:text-purple-300 bg-transparent hover:border-purple-400"
+                    onClick={() => handleViewDemo(project.demoUrl)}
+                  >
+                    View Demo
                   </Button>
                   <Button 
                     size="sm" 
