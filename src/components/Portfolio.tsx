@@ -48,7 +48,7 @@ export const Portfolio = () => {
       title: "Clot E-Commerce App",
       description: "A modern e-commerce application developed during my internship at Link Development. This full-featured shopping app provides a seamless online retail experience with secure authentication, real-time data synchronization, multi-language support, and customizable themes for enhanced user experience.",
       image: "/clot_preview.png",
-      github: "#",
+      github: "https://github.com/YoussefGhonem1/ecommerce_linkdevelpment",
       apkUrl: "#",
       technologies: ["Flutter", "Firebase Auth", "Firestore", "Localization", "Theming", "Clean Architecture"]
     },
