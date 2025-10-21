@@ -126,11 +126,11 @@ export const Portfolio = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex gap-3">
+                <div className="flex flex-col sm:flex-row gap-2 sm:gap-3">
                   <Button 
                     variant="outline" 
                     size="sm" 
-                    className="border-blue-500/50 text-blue-400 hover:bg-blue-600/20 hover:text-blue-300 bg-transparent hover:border-blue-400"
+                    className="border-blue-500/50 text-blue-400 hover:bg-blue-600/20 hover:text-blue-300 bg-transparent hover:border-blue-400 w-full sm:w-auto"
                     onClick={() => handleViewCode(project.github)}
                   >
                     View Code
@@ -138,14 +138,14 @@ export const Portfolio = () => {
                   <Button 
                     variant="outline" 
                     size="sm" 
-                    className="border-purple-500/50 text-purple-400 hover:bg-purple-600/20 hover:text-purple-300 bg-transparent hover:border-purple-400"
+                    className="border-purple-500/50 text-purple-400 hover:bg-purple-600/20 hover:text-purple-300 bg-transparent hover:border-purple-400 w-full sm:w-auto"
                     onClick={() => handleViewDemo(project.demoUrl)}
                   >
                     View Demo
                   </Button>
                   <Button 
                     size="sm" 
-                    className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white border-0"
+                    className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white border-0 w-full sm:w-auto"
                     onClick={() => handleDownloadApk(project.apkUrl, project.title)}
                   >
                     Download Now
