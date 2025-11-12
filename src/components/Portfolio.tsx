@@ -101,7 +101,7 @@ export const Portfolio = () => {
 
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 shadow-lg bg-gray-800">
+            <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 shadow-lg bg-gray-800 flex flex-col">
               <div className="overflow-hidden rounded-t-lg">
                 <img 
                   src={project.image} 
@@ -109,13 +109,13 @@ export const Portfolio = () => {
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
-              <CardHeader>
+              <CardHeader className="flex-grow">
                 <CardTitle className="text-xl text-white">{project.title}</CardTitle>
                 <CardDescription className="text-gray-300 leading-relaxed">
                   {project.description}
                 </CardDescription>
               </CardHeader>
-              <CardContent className="space-y-4">
+              <CardContent className="space-y-4 mt-auto">
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, techIndex) => (
                     <span 
