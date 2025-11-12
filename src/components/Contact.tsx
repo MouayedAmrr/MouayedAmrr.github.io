@@ -1,10 +1,18 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Mail, Linkedin, Github } from 'lucide-react';
+import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 export const Contact = () => {
+  const { ref, isVisible } = useScrollAnimation();
   return (
-    <section id="contact" className="py-20 bg-gray-800">
+    <section 
+      ref={ref}
+      id="contact" 
+      className={`py-20 bg-gray-800 transition-all duration-700 ${
+        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+      }`}
+    >
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
