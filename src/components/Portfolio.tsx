@@ -109,7 +109,13 @@ export const Portfolio = () => {
 
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-0 shadow-lg bg-gray-800 flex flex-col">
+            <Card 
+              key={index} 
+              className={`group hover:shadow-xl transition-all duration-700 hover:-translate-y-2 border-0 shadow-lg bg-gray-800 flex flex-col ${
+                isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+              }`}
+              style={{ transitionDelay: `${Math.floor(index / 2) * 150}ms` }}
+            >
               <div className="overflow-hidden rounded-t-lg">
                 <img 
                   src={project.image} 

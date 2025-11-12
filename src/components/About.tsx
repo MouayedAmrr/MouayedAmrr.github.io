@@ -66,7 +66,10 @@ export const About = () => {
               {technologies.map((tech, index) => (
                 <div 
                   key={index}
-                  className="bg-gradient-to-r from-gray-700 to-gray-600 border border-gray-600 rounded-lg p-3 text-center hover:shadow-md transition-shadow"
+                  className={`bg-gradient-to-r from-gray-700 to-gray-600 border border-gray-600 rounded-lg p-3 text-center hover:shadow-md transition-all duration-500 ${
+                    isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+                  }`}
+                  style={{ transitionDelay: `${Math.floor(index / 2) * 100}ms` }}
                 >
                   <span className="text-gray-200 font-medium">{tech}</span>
                 </div>
