@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-export const useScrollAnimation = (threshold = 0.1) => {
+export const useScrollAnimation = (threshold = 0.1, rootMargin = '0px') => {
   const ref = useRef<HTMLElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -9,7 +9,10 @@ export const useScrollAnimation = (threshold = 0.1) => {
       ([entry]) => {
         setIsVisible(entry.isIntersecting);
       },
-      { threshold }
+      { 
+        threshold,
+        rootMargin // Allows animation to trigger before element enters viewport
+      }
     );
 
     const currentRef = ref.current;
@@ -22,7 +25,7 @@ export const useScrollAnimation = (threshold = 0.1) => {
         observer.unobserve(currentRef);
       }
     };
-  }, [threshold]);
+  }, [threshold, rootMargin]);
 
   return { ref, isVisible };
 };
