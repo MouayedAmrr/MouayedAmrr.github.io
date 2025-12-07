@@ -83,11 +83,13 @@ export const Portfolio = () => {
       const link = document.createElement('a');
       link.href = apkUrl;
       link.download = `${appName.replace(/\s+/g, '_')}.apk`;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      // Force download by setting download attribute
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
     }
-    // Movies App download button has no functionality for now
   };
 
   return (
